@@ -41,7 +41,6 @@ public class Main {
             if (!file.getName().startsWith(".")) filesList.add(file);
         }
 
-        //System.out.println(BOLD + "\nWelcome to GloMaker,\nremember I analyze only LateX files and your glossary items need to be marked like this:" + ITALIC + "\n\n\\newglossaryentry{wordName}{\n\tname=wordName,\n\tdescription={wordDefinition}\n}\n\n" + BOLD + ", while words I add to main glossary need to be marked like this:" + ITALIC + "\n\n\\gl{wordName}\n");
         System.out.println(BOLD + "\nWelcome to " + APP_NAME + BOLD + ", please read README before continue.\n");
         int firstIndex = -1;
         do {
