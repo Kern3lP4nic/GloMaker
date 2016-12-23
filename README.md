@@ -4,7 +4,7 @@ Con questo strumento è possibile automatizzare il processo di aggiornamento del
 
 Per il suo corretto funzionamento è necessario aver installato nella macchina [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
-Una volta compilato `javac Main.java` ed eseguito `java Main` lo script chiederà all'utente di selezionare il file principale del glossario contenente **SOLAMENTE** i termini con le loro definizioni, e successivamente la directory dove cercare ricorsivamente nuovi termini da aggiungere al glossario. 
+Lo script dovrà essere eseguito da console. Una volta compilato `javac Main.java` ed eseguito `java Main`, il programma chiederà all'utente di selezionare il file principale del glossario contenente **SOLAMENTE** i termini con le loro definizioni, e successivamente la directory dove cercare ricorsivamente nuovi termini da aggiungere al glossario. 
 
 I termini nel glossario devono essere definiti in questo modo
 ```
